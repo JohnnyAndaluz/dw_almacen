@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="SRFRANCISCOPC_SRFRANCISCO.DW_Alamcen"
+  DTS:DTSID="{25670166-2309-489E-899C-8E15644A5D40}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SRFRANCISCOPC\SRFRANCISCO;Initial Catalog=DW_Alamcen;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-DW_Almacen_SSIS-{25670166-2309-489E-899C-8E15644A5D40}SRFRANCISCOPC\SRFRANCISCO.DW_Alamcen;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>

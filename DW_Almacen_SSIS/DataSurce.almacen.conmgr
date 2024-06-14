@@ -1,0 +1,12 @@
+﻿<?xml version="1.0"?>
+<DTS:ConnectionManager xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:ObjectName="DataSurce almacen"
+  DTS:DTSID="{7AEEDA8C-712C-498E-966B-34ADC578304C}"
+  DTS:CreationName="OLEDB">
+  <DTS:ObjectData>
+    <DTS:ConnectionManager
+      DTS:ConnectRetryCount="1"
+      DTS:ConnectRetryInterval="5"
+      DTS:ConnectionString="Data Source=SRFRANCISCOPC\SRFRANCISCO;Initial Catalog=almacen;Provider=SQLOLEDB.1;Integrated Security=SSPI;Application Name=SSIS-DW_Almacen_SSIS-{7AEEDA8C-712C-498E-966B-34ADC578304C}SRFRANCISCOPC\SRFRANCISCO.almacen;Auto Translate=False;" />
+  </DTS:ObjectData>
+</DTS:ConnectionManager>
